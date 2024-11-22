@@ -43,6 +43,7 @@
 
 # Hasil Coding 1
 
+![hasil pyhton 1](https://github.com/user-attachments/assets/77bc0bf7-9fba-4d13-8161-b2dabc616774)
 
  # coding 2
 
@@ -133,4 +134,6 @@
          main()
 
 # hasil Coding 2
+
+
 
