@@ -39,6 +39,8 @@
 
 # Hasil Coding 1
 
+![hasil pyhton 1](https://github.com/user-attachments/assets/77bc0bf7-9fba-4d13-8161-b2dabc616774)
+
 # Penjelasan Coding 1
 
 1. Pembuatan Dictionary:
@@ -116,8 +118,6 @@ Program ini mendemonstrasikan operasi dasar pada dictionary Python:
 # Flowchart
 
 ![flowchart praktikum6](https://github.com/user-attachments/assets/b5f219f2-03fe-4e4c-9abd-fcae00976b10)
-
-![hasil pyhton 1](https://github.com/user-attachments/assets/77bc0bf7-9fba-4d13-8161-b2dabc616774)
 
  # coding 2
 
