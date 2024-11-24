@@ -1,9 +1,5 @@
 # Praktikum6
 
-# Flowchart
-
-![flowchart praktikum6](https://github.com/user-attachments/assets/b5f219f2-03fe-4e4c-9abd-fcae00976b10)
-
 # Coding 1
 
     kontak = {
@@ -42,6 +38,84 @@
      print(nama + ":"+ nomor)
 
 # Hasil Coding 1
+
+# Penjelasan Coding 1
+
+1. Pembuatan Dictionary:
+
+       kontak = {
+       "alpi": "085710092053",
+       "sultan": "087815646769"
+       }
+
+- Ini membuat dictionary bernama kontak yang menyimpan nama sebagai key dan nomor telepon sebagai value
+- Awalnya berisi 2 kontak: alpi dan sultan
+
+2. Mengakses Value:
+
+       print("Kontak alpi:", kontak["alpi"])
+
+- Menampilkan nomor telepon alpi dengan mengakses dictionary menggunakan key "alpi"
+
+3. Menambah Data:
+
+       kontak["aldo"] = "082127150958"
+
+- Menambahkan kontak baru dengan nama "aldo" dan nomornya ke dalam dictionary
+
+4. Menampilkan Semua Nama (Keys):
+
+       print("Semua Nama:")
+        for nama in kontak:
+       print(nama)
+
+- Menggunakan loop untuk menampilkan semua nama (keys) dalam dictionary
+
+5. Menampilkan Semua Nomor (Values):
+
+       print("Semua Nomor:")
+         for nomor in kontak.values():
+       print(nomor)
+
+- Menggunakan loop dan method .values() untuk menampilkan semua nomor telepon
+
+6. Menampilkan Nama dan Nomor (Key-Value Pairs):
+
+       print("Daftar Nama dan Nomornya:")
+       for nama, nomor in kontak.items():
+       print(nama + ": " + nomor)
+
+- Menggunakan method .items() untuk mengakses pasangan key-value sekaligus
+- Menampilkan nama dan nomor dalam format "nama: nomor"
+
+7. Menghapus Data:
+
+       del kontak["sultan"]
+
+- Menghapus kontak "sultan" dari dictionary menggunakan keyword del
+
+8. Menampilkan Data Setelah Penghapusan:
+
+- Program kemudian mengulangi proses menampilkan nama, nomor, dan pasangan nama-nomor
+- Hasilnya menunjukkan bahwa data "sultan" sudah tidak ada dalam dictionary
+
+Dari output yang ditampilkan:
+
+- Awalnya ada 3 kontak (alpi, sultan, aldo)
+- Setelah penghapusan tersisa 2 kontak (alpi dan aldo)
+- Setiap informasi ditampilkan dengan format yang rapi dan terstruktur
+
+Program ini mendemonstrasikan operasi dasar pada dictionary Python:
+
+- Membuat dictionary
+- Mengakses value dengan key
+- Menambah data baru
+- Menghapus data
+- Mengiterasi melalui keys, values, dan items
+
+# Flowchart
+
+![flowchart praktikum6](https://github.com/user-attachments/assets/b5f219f2-03fe-4e4c-9abd-fcae00976b10)
 
 ![hasil pyhton 1](https://github.com/user-attachments/assets/77bc0bf7-9fba-4d13-8161-b2dabc616774)
 
